@@ -492,64 +492,66 @@
         </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop backdrop--is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="modal-button" data-modal-close>
-                <svg class="modal-icon-close">
+            <button type="button" class="modal__button-close" data-modal-close>
+                <svg class="modal__icon-close">
                     <use href="./images/sprite.svg#close"></use>
                 </svg>
             </button>
             <form class="modal-form" name="modal-form" autocomplete="off">
-                <p class="modal-form-title">Оставьте свои данные, мы вам перезвоним</p>
+                <p class="modal-form__title">Оставьте свои данные, мы вам перезвоним</p>
 
-                <ul class="modal-form-list">
+                <ul class="modal-form__list">
 
-                    <li class="modal-form-item">
-                        <label class="modal-form-label" for="user-name">Имя</label>
-                        <input class="modal-form-input" type="text" name="user-name" id="user-name" autocomplete="name">
-                        <svg class="modal-icon" width="12px" height="12px">
+                    <li class="modal-form__item">
+                        <label class="modal-form__label" for="user-name">Имя</label>
+                        <input class="modal-form__input" type="text" name="user-name" id="user-name"
+                            autocomplete="name">
+                        <svg class="modal-form__icon " width="12px" height="12px">
                             <use href="./images/sprite.svg#name"></use>
                         </svg>
                     </li>
 
-                    <li class="modal-form-item">
-                        <label class="modal-form-label" for="user-phone">Телефон</label>
-                        <input class="modal-form-input" type="tel" name="user-phone" id="user-phone" autocomplete="tel">
-                        <svg class="modal-icon" width="13" height="13">
+                    <li class="modal-form__item">
+                        <label class="modal-form__label" for="user-phone">Телефон</label>
+                        <input class="modal-form__input" type="tel" name="user-phone" id="user-phone"
+                            autocomplete="tel">
+                        <svg class="modal-form__icon" width="13" height="13">
                             <use href="./images/sprite.svg#phonem"></use>
                         </svg>
                     </li>
 
-                    <li class="modal-form-item">
-                        <label class="modal-form-label" for="user-mail">Почта</label>
-                        <input class="modal-form-input" type="email" name="mail" id="user-mail" autocomplete="email">
-                        <svg class="modal-icon" width="15" height="12">
+                    <li class="modal-form__item">
+                        <label class="modal-form__label" for="user-mail">Почта</label>
+                        <input class="modal-form__input" type="email" name="mail" id="user-mail" autocomplete="email">
+                        <svg class="modal-form__icon modal-form__icon--hover" width="15" height="12">
                             <use href="./images/sprite.svg#mailm"></use>
                         </svg>
                     </li>
 
-                    <li class="modal-form-item">
-                        <label class="modal-form-label" for="comments">Комментарий</label>
-                        <textarea class="modal-form-textarea" name="comments" rows="6" id="comments"
+                    <li class="modal-form__item">
+                        <label class="modal-form__label" for="comments">Комментарий</label>
+                        <textarea class="modal-form__textarea" name="comments" rows="6" id="comments"
                             placeholder="Введите текст"></textarea>
                     </li>
 
                 </ul>
 
-                <p class="form-conditions">
-                    <label class="form-checkbox-label">
-                        <input class="form-checkbox" type="checkbox" name="condition" value="yes">
-                        <svg class="form-checkbox-icon" width="16px" height="16px">
+                <p class="conditions">
+                    <label class="conditions__label">
+                        <input class="conditions__checkbox" type="checkbox" name="condition" value="yes">
+                        <svg class="conditions__icon" width="16px" height="16px">
                             <use href="./images/sprite.svg#icon-check"></use>
                         </svg>
                         <span>Соглашаюсь с рассылкой и принимаю
-                            <a class="form-conditions-link" href=""> Условия договора
+                            <a class="conditions__link" href=""> Условия договора
                             </a>
                         </span>
                     </label>
                 </p>
 
-                <button type="submit" class="modal-form-button">Отправить</button>
+                <button type="submit" class="modal-form__button">Отправить</button>
 
 
             </form>
