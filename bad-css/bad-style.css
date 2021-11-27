@@ -48,17 +48,12 @@ ul {
 
 /* Шапка сайта */
 
-.list {
-  list-style: none;
-}
-
 .header {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
 .header-section,
-.header-section__nav,
-.header-links {
+.header-section__nav {
   display: flex;
   padding: 0;
 }
@@ -281,20 +276,6 @@ ul {
   padding-bottom: 94px;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .section-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -370,9 +351,6 @@ ul {
 
 .works-list__item {
   max-width: calc((100%-60px) / 3);
-}
-
-.works-list__item:hover .works-container {
 }
 
 .works-list__item:not(:nth-child(3n + 3)) {
