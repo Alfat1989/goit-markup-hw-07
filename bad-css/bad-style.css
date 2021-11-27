@@ -386,7 +386,7 @@ ul {
 }
 
 /* Hаша команда */
-.section-comand {
+.comand-section {
   background-color: var(--second-bg-color);
   padding-top: 94px;
   padding-bottom: 94px;
