@@ -32,7 +32,7 @@
     padding: 30px 32px;
   }
 
-  &_subtitle {
+  &__subtitle {
     margin-bottom: 10px;
 
     font-size: 16px;
@@ -49,7 +49,7 @@
     text-align: center;
   }
 
-  &_icon-list {
+  &__icon-list {
     display: flex;
     margin-top: 16px;
   }
@@ -61,5 +61,35 @@
 
   &:not(:last-child) {
     margin-right: 10px;
+  }
+}
+
+.team__icon-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  color: #afb1b8;
+
+  transition: background-color 250ms $transitionTiming;
+
+  &:hover {
+    background-color: $colorAkcent;
+  }
+}
+
+.team__social-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+
+  transition: fill 250ms $transitionTiming;
+
+  .team__icon-link:hover & {
+    fill: $colorSecond;
   }
 }
