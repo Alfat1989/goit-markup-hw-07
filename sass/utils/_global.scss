@@ -1,10 +1,14 @@
 body {
+  margin: 0;
+  background-color: $colorSecond;
+
   color: $colorMain;
 
   font-size: 14px;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 

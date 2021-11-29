@@ -262,11 +262,14 @@ summary {
 }
 
 body {
+  margin: 0;
+  background-color: #ffffff;
   color: #212121;
   font-size: 14px;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
